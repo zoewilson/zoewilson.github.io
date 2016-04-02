@@ -38,6 +38,7 @@ a {
 }
 a:active,
 a:hover {
+  color: #363636;
   outline: 0;
 }
 h1 {
@@ -301,8 +302,9 @@ h4 {
   font-size: 1.6rem;
 }
 a {
-  color: #4b0082;
-  text-decoration: underline;
+  color: #A31D2B;
+  text-decoration: none;
+  font-weight: bold;
 }
 p {
   line-height: 1.7;
@@ -1132,7 +1134,7 @@ pre {
   width: 35px;
 }
 .social-links > .link:hover > .icon {
-  fill: #4b0082;
+  fill: #A31D2B;
 }
 .social-links > .link:hover:before {
   opacity: 1;
